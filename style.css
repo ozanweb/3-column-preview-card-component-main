@@ -67,9 +67,6 @@ a {
   border-radius: 2rem;
 }
 
-html {
-}
-
 body {
   background-color: hsl(0, 0%, 95%);
   display: flex;
@@ -82,9 +79,7 @@ body {
   margin: 0 1rem;
 }
 
-.first,
-.second,
-.third {
+.card {
   color: white;
   padding: 2rem;
 }
@@ -112,7 +107,7 @@ body {
   color: hsl(179, 100%, 13%);
 }
 
-section a:hover {
+.card a:hover {
   background-color: transparent;
   color: hsl(0, 0%, 95%);
   border: 1px solid hsl(0, 0%, 95%);
