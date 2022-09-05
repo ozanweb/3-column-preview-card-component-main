@@ -68,24 +68,18 @@ a {
 }
 
 html {
-  background-color: hsl(0, 0%, 95%);
-  position: absolute;
-  display: table;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-width: 375px; /* 25rem */
-  height: 100%;
 }
 
 body {
-  display: table-cell;
-  vertical-align: middle;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main {
-  width: 20rem;
-  margin: 0 auto;
+  max-width: 20rem;
+  margin: 0 1rem;
 }
 
 .first,
@@ -138,22 +132,15 @@ section a:hover {
    
   }
 
-  html {
-    display: initial;
-    
-   
-  }
-  body {
-    display: initial;
-   
-  }
+
   .main {
     display: flex;
-    width: 70%;
-    margin: auto;
-    height: 100%;
-    /* justify-content: center; */
+    flex-direction: row;
     align-items: center;
+    max-width: 40rem;
+    margin: 0 1rem;
+    height: 100vh;
+   
   }
 
   .first {
